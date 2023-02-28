@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+.container {
+  width: 60%;
+  padding: 10px;
+  margin: 20px auto;
+  border: 1px solid black;
+}
+
+.task-li {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.task-li:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.task-p {
+  padding-left: 60px;
+}
